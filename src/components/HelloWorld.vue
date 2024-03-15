@@ -3,6 +3,7 @@ import { ref } from 'vue'
 
 defineProps({
   msg: String,
+  env: Object,
 })
 
 const count = ref(0)
@@ -16,6 +17,7 @@ const count = ref(0)
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
+      VITE ENV VARIABLE 1 {{ env.VITE_ENV_VARIABLE  }}
     </p>
   </div>
 
