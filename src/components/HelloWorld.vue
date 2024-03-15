@@ -15,18 +15,10 @@ const count = ref(0)
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-      VITE ENV VARIABLE 1 {{ env.VITE_ENV_VARIABLE  }}
+      VITE_ENV_VARIABLE: {{ env.VITE_ENV_VARIABLE  }}
     </p>
   </div>
 
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
   <p>
     Install
     <a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
