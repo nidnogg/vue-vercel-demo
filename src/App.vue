@@ -12,7 +12,7 @@ const env = import.meta.env
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" :env="env" />
+  <HelloWorld msg="Vite + Vue + Vercel" :env="env" />
 </template>
 
 <style scoped>
